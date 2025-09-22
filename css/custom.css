@@ -1,0 +1,29 @@
+/* ////////////////////////////////////////
+
+Your custom css here
+
+/////////////////////////////////////////*/
+
+
+.navbar .nav-link.active {
+  color: #007bff !important; /* contoh warna teks aktif */
+  font-weight: 600;          /* opsional: lebih tebal supaya beda */
+}
+
+.skill-badge {
+  display: inline-block;
+  background-color: #f0f0f0; /* warna latar bubble */
+  color: #333;              /* warna teks */
+  padding: 8px 14px;        /* jarak dalam bubble */
+  border-radius: 20px;      /* bikin rounded oval */
+  font-size: 0.9rem;
+  margin: 4px 4px 0 0;      /* jarak antar bubble */
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.skill-badge:hover {
+  background-color: #007bff; /* warna saat hover */
+  color: #fff;
+}
+
