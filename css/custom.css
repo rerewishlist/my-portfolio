@@ -27,3 +27,34 @@ Your custom css here
   color: #fff;
 }
 
+.resume-head {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  border-top: 5px solid #eee; 
+}
+.resume-item {
+  padding-bottom: 15px;
+  /* border-bottom: 1px solid #eee;  */
+  /* opsional garis bawah */
+}
+
+.resume-title {
+  font-size: 1rem;     /* ukuran judul kampus */
+  font-weight: 600;    /* sedikit tebal */
+  margin-bottom: 3px;
+}
+
+.resume-sub {
+  font-size: 0.9rem;   /* jurusan lebih kecil */
+  color: #555;
+  margin-bottom: 2px;
+}
+
+.resume-meta {
+  font-size: 0.85rem;  /* tahun & GPA paling kecil */
+  color: #777;
+}
+
+
+
+
